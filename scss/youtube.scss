@@ -1,0 +1,226 @@
+.ch-gray {
+  background-color: rgb(241, 241, 241);
+}
+
+/*desktop*/
+
+@media screen and (min-width: 1030px) {
+  .car-yt {
+    background-image: url('../assets/car-yt-1.png');
+    background-repeat: no-repeat;
+    background-position: -55% center;
+  }
+  .vid-nudge {
+    position: relative;
+    padding-left: 30%;
+    padding-top: 0%;
+  }
+  .carousel-control-prev-icon i {
+    position: relative;
+    bottom: 15px;
+    left: 1px;
+  }
+  .carousel-control-prev-icon {
+    position: relative;
+    right: 17px;
+  }
+  .carousel-control-next-icon {
+    position: relative;
+    right: 90px;
+  }
+  
+  .carousel-control-next-icon i {
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(123, 124, 124, 0.705);
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-image: none;
+  font-size: 25px;
+}
+}
+
+/*tablet-pro*/
+
+@media screen and (max-width: 1029px) {
+  .car-yt {
+    background-image: url('../assets/car-yt-1.png');
+    background-repeat: no-repeat;
+    background-position: -115% center;
+  }
+  .vid-nudge {
+    position: relative;
+    padding-left: 25%;
+    padding-top: 0%;
+  }
+  .carousel-control-prev-icon i {
+    position: relative;
+    bottom: 15px;
+    left: 1px;
+  }
+  .carousel-control-prev-icon {
+    position: relative;
+    right: -8px;
+  }
+  .carousel-control-next-icon {
+    position: relative;
+    right: -5px;
+  }
+  
+  .carousel-control-next-icon i {
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(123, 124, 124, 0.705);
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-image: none;
+  font-size: 25px;
+}
+}
+
+/*tablet*/
+@media screen and (max-width: 850px) {
+  .car-yt {
+    background-image: url('../assets/car-yt-1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .vid-nudge {
+    position: relative;
+    padding-left: 0%;
+    padding-top: 0%;
+    right: 20px;
+  }
+  .carousel-control-prev-icon i {
+    position: relative;
+    bottom: 15px;
+    left: 1px;
+  }
+  .carousel-control-prev-icon {
+    position: relative;
+    right: 17px;
+  }
+  .carousel-control-next-icon {
+    position: relative;
+    left: 25px;
+  }
+  .carousel-control-next-icon i {
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(123, 124, 124, 0.705);
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-image: none;
+  font-size: 25px;
+}
+}
+
+/*mobile*/
+@media screen and (max-width: 420px) {
+  .car-yt {
+    background-image: url('../assets/car-yt-1.png');
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-size: contain;
+  }
+  .vid-nudge {
+    position: relative;
+    padding-left: 20%;
+    padding-top: 0%;
+    top: -20px;
+  }
+  .carousel-control-prev-icon i {
+    position: relative;
+    bottom: 15px;
+    left: 1px;
+  }
+  .carousel-control-prev-icon {
+    position: relative;
+    right: 30px;
+  }
+  .carousel-control-next-icon {
+    position: relative;
+    left: -21px;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(123, 124, 124, 0.705);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: none;
+  font-size: 25px;
+}
+
+}
+
+.video-list {
+  .row {
+    padding-left: 15%;
+    font-family: 'Roboto', sans-serif;
+  }
+  .col-4,
+  .container-fluid {
+    background-color: white;
+    margin-right: 20px;
+    padding: 0px;
+    width: 170px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  img {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    font-weight: 300;
+    color: rgb(158, 156, 156);
+    font-size: 12px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  h4 {
+    font-weight: 700;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+  }
+  img {
+    padding-bottom: 3px;
+  }
+}
+
+
+.carousel-control-next-icon:after {
+  content: '';
+  font-size: 45px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '';
+  font-size: 45px;
+  color: white;
+}

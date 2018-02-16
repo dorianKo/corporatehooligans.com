@@ -1,0 +1,40 @@
+.ch-bottom {
+  background-color: black; }
+
+.ch-bottom p {
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  font-weight: 300;
+  font-size: 12px;
+  padding-left: 7px; }
+
+.ch-bottom a {
+  color: gray; }
+
+.logos {
+  margin-right: 3px;
+  padding-left: 5px; }
+
+/*mobile*/
+@media screen and (max-width: 420px) {
+  .logos i {
+    font-size: 45px; }
+  .logos .col-2 {
+    margin-right: 15px; }
+  .ch-bottom img {
+    position: relative;
+    left: -25%; } }
+
+/*tablet and up*/
+@media screen and (min-width: 421px) {
+  .logos i {
+    font-size: 45px; }
+  .logos .col-2 {
+    margin-right: 5px; } }
+
+.ch-bottom .btn {
+  background-color: #ff9900;
+  color: white;
+  position: relative;
+  right: 5px;
+  left: 100%; }

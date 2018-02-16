@@ -1,0 +1,14 @@
+.is-bottom-navigation-links {
+  font-size: 14px; }
+
+.is-bottom-navigation-links h3 {
+  font-size: 22px; }
+
+.is-bottom-navigation-links a {
+  color: #FFFFFF; }
+
+.is-bottom-navigation-links a:hover {
+  color: #3a383a; }
+
+.is-nav-no-dec a:hover {
+  text-decoration: none; }

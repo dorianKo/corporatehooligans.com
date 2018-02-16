@@ -1,0 +1,18 @@
+.is-post a {
+  color: black; }
+
+.is-post p a {
+  text-decoration: underline; }
+
+.is-post h4 {
+  padding-top: 20px;
+  padding-bottom: 10px; }
+
+.is-post article {
+  margin-top: 20px; }
+
+.is-post hr {
+  margin-bottom: 20px; }
+
+.is-blog-sidebar h3 {
+  padding-top: 20px; }

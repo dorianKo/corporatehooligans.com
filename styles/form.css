@@ -1,0 +1,38 @@
+form .form-control {
+  background-color: #f3f2f2;
+  border-radius: 0px;
+  border-top: solid 2px #d6d5d5;
+  border-left: solid 2px #d6d5d5;
+  border-right: none;
+  border-bottom: none;
+  -webkit-appearance: none;
+  color: #a09d9d; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-color: #f3f2f2 !important; }
+
+select::-ms-expand {
+  display: none; }
+
+select + i.fa {
+  float: right;
+  margin-top: -26px;
+  margin-right: 10px;
+  /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+  pointer-events: none;
+  /* everything after this is just to cover up the original arrow */
+  /* (for browsers that don't support the syntax used above) */
+  background-color: transparent;
+  color: #0593d4 !important;
+  font-size: 12px;
+  padding-right: 5px; }
+
+select option {
+  padding-right: 21px; }
+
+form label {
+  color: black; }

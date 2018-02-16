@@ -1,0 +1,53 @@
+.ch-amazon-banner {
+  background: url(../assets/amazon-row.jpg) center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 400px; }
+
+.ch-amazon-banner div {
+  padding-top: 160px; }
+
+.ch-amazon-main {
+  background-color: #eeeeee;
+  font-family: 'Roboto', sans-serif; }
+
+.ch-amazon-main h1 {
+  font-weight: 300; }
+
+.ch-amazon-main h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 22px; }
+
+.ch-amazon-main h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #ff9900; }
+
+.ch-amazon-main img {
+  height: 200px; }
+
+.ch-amazon-main p {
+  font-weight: 400;
+  font-style: italic; }
+
+.ch-amazon-main .btn {
+  font-weight: 400;
+  background-color: black;
+  color: white;
+  width: 100px; }
+
+.pad-r {
+  padding-left: 10%; }
+
+@media screen and (max-width: 420px) {
+  .mobile-merch-center {
+    position: relative;
+    left: -20px; }
+  .mobile-merch-center-right {
+    position: relative;
+    left: 30px; } }

@@ -1,0 +1,54 @@
+form .form-control {
+    background-color: rgb(243, 242, 242);
+    border-radius: 5px;
+    border-right: none;
+    border-bottom: none;
+    -webkit-appearance: none;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    margin-top: 5px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-color: rgb(243, 242, 242) !important;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select+i.fa {
+    float: right;
+    margin-top: -26px;
+    margin-right: 10px;
+    /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+    pointer-events: none;
+    /* everything after this is just to cover up the original arrow */
+    /* (for browsers that don't support the syntax used above) */
+    background-color: transparent;
+    color: rgb(2, 24, 34) !important;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+select option {
+    padding-right: 21px;
+}
+
+form label {
+    color: black;
+}
+
+.ch-contact {
+    background-color: rgb(160, 158, 158);
+    h3 {
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+    }
+}

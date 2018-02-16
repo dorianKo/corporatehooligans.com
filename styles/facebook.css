@@ -1,0 +1,124 @@
+.ch-darkgray {
+  background-color: #ccc9c9;
+  height: 500px; }
+
+/*desktop*/
+@media screen and (min-width: 1030px) {
+  .ch-moto {
+    background: url(../assets/fb-bg.png) left no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    right: 5%; }
+  .fb-header {
+    position: relative;
+    top: 50%;
+    font-family: 'Times New Roman', Times, serif; }
+  .fb-model {
+    position: relative;
+    top: 7%;
+    right: 130%; }
+  .fb-right {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #504e4e;
+    font-size: 29px; }
+  .fb-right a {
+    color: #ccc9c9; } }
+
+/*tablet-pro*/
+@media screen and (max-width: 1029px) {
+  .ch-moto {
+    background: url(../assets/fb-bg.png) left no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: -10px center;
+    position: relative;
+    height: 500px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    right: 5%; }
+  .fb-header {
+    position: relative;
+    top: 50%;
+    font-family: 'Times New Roman', Times, serif; }
+  .fb-model {
+    position: relative;
+    top: 7%;
+    right: 340%; }
+  .fb-right {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #504e4e;
+    font-size: 29px; }
+  .fb-right a {
+    color: #ccc9c9; } }
+
+/*tablet*/
+@media screen and (max-width: 850px) {
+  .ch-moto {
+    background: url(../assets/fb-bg.png) left no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: -10px center;
+    position: relative;
+    height: 500px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    right: 5%; }
+  .fb-header {
+    position: relative;
+    top: 50%;
+    font-family: 'Times New Roman', Times, serif; }
+  .fb-model {
+    position: relative;
+    top: 7%;
+    right: 390%; }
+  .fb-right {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #504e4e;
+    font-size: 29px; }
+  .fb-right a {
+    color: #ccc9c9; } }
+
+/*mobile*/
+@media screen and (max-width: 420px) {
+  .ch-moto {
+    background: url(../assets/fb-bg.png) left no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: -10px center;
+    position: relative;
+    height: 500px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    right: 5%; }
+  .fb-header {
+    position: relative;
+    top: 50%;
+    font-family: 'Times New Roman', Times, serif; }
+  .fb-model {
+    position: relative;
+    top: 7%;
+    right: 390%; }
+  .fb-right {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #504e4e;
+    font-size: 20px;
+    position: relative;
+    left: 38%; }
+  .fb-right a {
+    color: #ccc9c9; } }

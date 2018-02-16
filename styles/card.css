@@ -1,0 +1,15 @@
+.card {
+  border-radius: 0;
+  border: 0; }
+
+.is-dark-blue {
+  background-color: #0e2e4d;
+  color: #FFFFFF; }
+
+.is-gray {
+  color: #9e9c9e; }
+
+.is-nudge-up {
+  position: relative;
+  top: -50px;
+  border: solid 5px #0593d4; }
